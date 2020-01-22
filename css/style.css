@@ -8,17 +8,36 @@
 	left:100px;
 }
 #field{
-	background-image: url('../images/background_blanka.gif');
-	width:621px;
-	height:224px;
-	position:relative;
+	background-image: url('../images/fondo2.jpg');
+	width:40%;
+	height:40%;
+	margin-left: 270px;
 }
 h1{
 	font-size:16px;
+	
 }
 body{
 	font-size:12px;
 }
 h2{
-	font-size:14px;
+	font-size:20px;
+	background-color: cyan;
+	
+}
+
+ul {
+	background-color: brown;
+	display: inline-block;
+	font-size:15px;
+	
+}
+
+p {
+	font-style: italic;
+	font-size: 15px;
+}
+
+#field, h2, ul, p {
+	display: block;
 }
